@@ -16,7 +16,7 @@
 Vagrant.configure(2) do |config|
   
   ## VARS
-  subject  = "git"
+  subject  = "debian12-plus"
   hostname = "#{subject}.lan"
   image    = "ml-registry/#{subject}"
   memory   = 1024
